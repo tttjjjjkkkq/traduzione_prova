@@ -105,70 +105,75 @@ Se il giocatore esaminato dal Detective ha ucciso di recente, il Detective verr�
 -----------------------
 ## Haunter
 ### **Team: Crewmates**
+Il haunter è un Membro dell'Equipaggio morto che può rivelare gli Impostori se completa tutti i suoi compiti.
+Una volta completati tutti i compiti, gli Impostori vengono rivelati agli altri membri dell'equipaggio vivi dopo una riunione.
+Tuttavia, se il Possessore viene cliccato, perde la sua capacità di rivelare gli Impostori e diventa nuovamente un normale fantasma.
 
-The Haunter is a dead Crewmate that can reveal Impostors if they finish all their tasks.\
-Upon finishing all of their tasks, Impostors are revealed to alive crewmates after a meeting is called.\
-However, if the Haunter is clicked they lose their ability to reveal Impostors and are once again a normal ghost.
-### Game Options
-| Name | Description | Type | Default |
+### Opzioni di Gioco
+| Nome | Descrizione | Tipo | Predefinito |
 |----------|:-------------:|:------:|:------:|
-| Haunter | The percentage probability of the Haunter appearing | Percentage | 0% |
-| When Haunter Can Be Clicked | The amount of tasks remaining when the Haunter Can Be Clicked | Number | 5 |
-| Haunter Alert | The amount of tasks remaining when the Impostors are alreted that the Haunter is nearly finished | Number | 1 |
-| Haunter Reveals Neutral Roles | Whether the Haunter also Reveals Neutral Roles | Toggle | False |
-| Who can Click Haunter | Whether even other Crewmates can click the Haunter | All / Non-Crew / Imps Only | All |
+| Possessore | La percentuale di probabilità che il Possessore appaia | Percentuale | 0% |
+| Quando Possessore Può Essere Cliccato | Il numero di compiti rimanenti quando il Possessore può essere cliccato | Numero | 5 |
+| Avviso Possessore | Il numero di compiti rimanenti quando gli Impostori vengono avvisati che il Possessore sta per completare i compiti | Numero | 1 |
+| Il Possessore Rivela Ruoli Neutrali | Se il Possessore rivela anche i Ruoli Neutrali | Interruttore | Falso |
+| Chi può Cliccare il Possessore | Se anche gli altri Membri dell'Equipaggio possono cliccare il Possessore | Tutti / Non Equipaggio / Solo Impostori | Tutti |
+
 
 -----------------------
 ## Investigator
-### **Team: Crewmates**
-The Investigator is a Crewmate that can see the footprints of players.\
-Every footprint disappears after a set amount of time.
+### **Squadra: Membri dell'Equipaggio**
+L'Investigatore è un Membro dell'Equipaggio che può vedere le impronte dei giocatori.
+Ogni impronta scompare dopo un certo periodo di tempo.
 
-### Game Options
-| Name | Description | Type | Default |
+### Opzioni di Gioco
+| Nome | Descrizione | Tipo | Predefinito |
 |----------|:-------------:|:------:|:------:|
-| Investigator | The percentage probability of the Investigator appearing | Percentage | 0% |
-| Footprint Size | The size of the footprint on a scale of 1 to 10 | Number | 4 |
-| Footprint Interval | The time interval between two footprints | Time | 0.1s |
-| Footprint Duration | The amount of time that the footprint stays on the ground for | Time | 10s |
-| Anonymous Footprint | When enabled, all footprints are grey instead of the player's colors | Toggle | False |
-| Footprint Vent Visible | Whether footprints near vents are shown | Toggle | False |
+| Investigatore | La percentuale di probabilità che l'Investigatore appaia | Percentuale | 0% |
+| Dimensione Impronta | La dimensione dell'impronta su una scala da 1 a 10 | Numero | 4 |
+| Intervallo Impronta | L'intervallo di tempo tra due impronte | Tempo | 0.1s |
+| Durata Impronta | La quantità di tempo per cui l'impronta rimane sul terreno | Tempo | 10s |
+| Impronte Anonime | Quando attivate, tutte le impronte sono grigie anziché dei colori dei giocatori | Interruttore | Falso |
+| Impronta Ventola Visibile | Se mostrare le impronte vicino alle ventole | Interruttore | Falso |
+
 
 -----------------------
 ## Mystic
-### **Team: Crewmates**
-The Mystic is a Crewmate that gets an alert revealing when someone has died.\
-On top of this, the Mystic briefly gets an arrow pointing in the direction of the body.
-### Game Options
-| Name | Description | Type | Default |
+### **Squadra: Membri dell'Equipaggio**
+Il Mistico è un Membro dell'Equipaggio che riceve un avviso quando qualcuno muore.
+Inoltre, il Mistico ottiene brevemente una freccia che indica la direzione del corpo.
+
+### Opzioni di Gioco
+| Nome | Descrizione | Tipo | Predefinito |
 |----------|:-------------:|:------:|:------:|
-| Mystic | The percentage probability of the Mystic appearing | Percentage | 0% |
-| Arrow Duration | The duration of the arrows pointing to the bodies | Time | 0.1s |
+| Mistico | La percentuale di probabilità che il Mistico appaia | Percentuale | 0% |
+| Durata Freccia | La durata delle frecce che indicano i corpi | Tempo | 0.1s |
+voglio
 
 -----------------------
 ## Seer
-### **Team: Crewmates**
-The Seer is a Crewmate that can reveal the alliance of other players.\
-Based on settings, the Seer can find out whether a player is a Good or an Evil role.\
-A player's name will change color to their team.
-### Game Options
-| Name | Description | Type | Default |
+### **Squadra: Membri dell'Equipaggio**
+Il Veggente è un Membro dell'Equipaggio che può rivelare l'alleanza degli altri giocatori.
+In base alle impostazioni, il Veggente può scoprire se un giocatore è di ruolo Buono o Cattivo.
+Il nome di un giocatore cambierà colore in base al suo team.
+
+### Opzioni di Gioco
+| Nome | Descrizione | Tipo | Predefinito |
 |----------|:-------------:|:------:|:------:|
-| Seer | The percentage probability of the Seer appearing | Percentage | 0% |
-| Seer Cooldown | The Cooldown of the Seer's Reveal button | Time | 25s |
-| Crewmate Killing show up as Evil | Crewmate Killing roles show up as Red | Toggle | False |
-| Neutral Benign show up as Evil | Neutral Benign roles show up as Red | Toggle | False |
-| Neutral Evil show up as Evil | Neutral Evil roles show up as Red | Toggle | False |
-| Neutral Killing show up as Evil | Neutral Killing roles show up as Red | Toggle | False |
-| Traitor does not swap Colours | The Traitor remains their original colour | Toggle | False |
+| Veggente | La percentuale di probabilità che il Veggente appaia | Percentuale | 0% |
+| Tempo di Recupero Veggente | Il tempo di recupero del pulsante Rivelazione del Veggente | Tempo | 25s |
+| Uccisioni dei Membri dell'Equipaggio appaiono come Cattive | I ruoli degli Uccisioni dei Membri dell'Equipaggio appaiono in Rosso | Interruttore | Falso |
+| Neutrali Benigni appaiono come Cattivi | I ruoli dei Neutrali Benigni appaiono in Rosso | Interruttore | Falso |
+| Neutrali Cattivi appaiono come Cattivi | I ruoli dei Neutrali Cattivi appaiono in Rosso | Interruttore | Falso |
+| Uccisioni Neutrali appaiono come Cattive | I ruoli delle Uccisioni Neutrali appaiono in Rosso | Interruttore | Falso |
+| Il Traditore non cambia colore | Il Traditore mantiene il suo colore originale | Interruttore | Falso |
 
 -----------------------
 ## Snitch
 ### **Team: Crewmates**
 
-The Snitch is a Crewmate that can get arrows pointing towards the Impostors, once all their tasks are finished.\
-The names of the Impostors will also show up as red on their screen.\
-However, when they only have a single task left, the Impostors get an arrow pointing towards the Snitch.
+Lo Spione è un Membro dell'Equipaggio che può ottenere frecce che indicano gli Impostors, una volta completati tutti i loro compiti.\
+I nomi degli Impostors appariranno anche in rosso sullo schermo dello Spione.\
+Tuttavia, quando lo Spione ha solo un compito rimasto, gli Impostors ottengono una freccia che indica lo Spione.
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
@@ -182,9 +187,9 @@ However, when they only have a single task left, the Impostors get an arrow poin
 ## Spy
 ### **Team: Crewmates**
 
-The Spy is a Crewmate that gains more information when on Admin Table and Vitals.\
-On Admin Table, the Spy can see the colors of every person on the map.\
-On Vitals, the Spy can see how long killed bodies have been dead for.
+The Spy is un Membro dell'Equipaggio che ottiene più informazioni quando si trova sulla Tabella di Amministrazione e sulle Vitals.\
+Sulla Tabella di Amministrazione, lo Spy può vedere i colori di ogni persona sulla mappa.\
+Sulle Vitals, lo Spy può vedere da quanto tempo i corpi uccisi sono morti.
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
@@ -194,9 +199,8 @@ On Vitals, the Spy can see how long killed bodies have been dead for.
 -----------------------
 ## Tracker
 ### **Team: Crewmates**
-
-The Tracker is a Crewmate that can track other players by tracking them during a round.\
-Once they track someone, an arrow is continuously pointing to them, which updates in set intervals.
+Il Tracciatore è un Membro dell'Equipaggio che può rintracciare gli altri giocatori monitorandoli durante una partita.\
+Una volta che hanno individuato qualcuno, una freccia punta continuamente verso di loro, che si aggiorna a intervalli prestabiliti.
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
@@ -210,10 +214,10 @@ Once they track someone, an arrow is continuously pointing to them, which update
 ## Trapper
 ### **Team: Crewmates**
 
-The Trapper is a Crewmate that can place traps around the map.\
-When players enter a trap they trigger the trap.\
-In the following meeting, all players who triggered a trap will have their role displayed to the trapper.\
-However, this is done so in a random order, not stating who entered the trap, nor what role a specific player is.
+Il Trapper è un Membro dell'Equipaggio che può posizionare trappole sulla mappa.\
+Quando i giocatori entrano in una trappola, attivano la trappola.\
+Nella successiva riunione, tutti i giocatori che hanno attivato una trappola avranno il loro ruolo mostrato al trapper.\
+Tuttavia, ciò viene fatto in ordine casuale, senza indicare chi è entrato nella trappola né quale ruolo ha un giocatore specifico.
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
@@ -228,8 +232,8 @@ However, this is done so in a random order, not stating who entered the trap, no
 -----------------------
 ## Sheriff
 ### **Team: Crewmates**
-The Sheriff is a Crewmate that has the ability to eliminate the Impostors using their kill button.\
-However, if they kill a Crewmate or a Neutral player they can't kill, they instead die themselves.
+Lo Sceriffo è un Membro dell'Equipaggio che ha la capacità di eliminare gli Impostor utilizzando il suo pulsante di uccisione.\
+Tuttavia, se uccide un Membro dell'Equipaggio o un giocatore Neutrale che non può uccidere, muore al suo posto.
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -249,8 +253,9 @@ However, if they kill a Crewmate or a Neutral player they can't kill, they inste
 ## Veteran
 ### **Team: Crewmates**
 
-The Veteran is a Crewmate that can go on alert.\
-When the Veteran is on alert, anyone, whether crew, neutral or impostor, if they interact with the Veteran, they die.
+
+Il Veterano è un Membro dell'Equipaggio che può mettersi in allerta.
+Quando il Veterano è in allerta, chiunque, sia membri dell'equipaggio, neutrali o impostor, se interagiscono con il Veterano, muoiono.
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
@@ -264,8 +269,8 @@ When the Veteran is on alert, anyone, whether crew, neutral or impostor, if they
 ## Vigilante
 ### **Team: Crewmates**
 
-The Vigilante is a Crewmate that can kill during meetings.\
-During meetings, the Vigilante can choose to kill someone by guessing their role, however, if they guess incorrectly, they die instead.
+Il Vigilante è un Membro dell'Equipaggio che può uccidere durante le riunioni.\
+Durante le riunioni, il Vigilante può scegliere di uccidere qualcuno indovinando il loro ruolo, tuttavia, se indovinano in modo errato, muoiono al loro posto.
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
@@ -281,11 +286,10 @@ During meetings, the Vigilante can choose to kill someone by guessing their role
 -----------------------
 ## Altruist
 ### **Team: Crewmates**
-
-The Altruist is a Crewmate that is capable of reviving dead players.\
-Upon finding a dead body, the Altruist can hit their revive button, risking sacrificing themselves for the revival of another player.\
-If enabled, the dead body disappears, so only the Altruist's body remains at the scene.\
-After a set period of time, the player will be resurrected, if the revival isn't interrupted.
+L'Altruista è un Membro dell'Equipaggio in grado di riportare in vita i giocatori morti.\
+Una volta trovato un corpo senza vita, l'Altruista può premere il pulsante di resurrezione, rischiando di sacrificarsi per riportare in vita un altro giocatore.\
+Se abilitato, il corpo senza vita scompare, quindi rimane solo il corpo dell'Altruista sulla scena.\
+Dopo un determinato periodo di tempo, il giocatore sarà risuscitato, se la resurrezione non viene interrotta.
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
@@ -296,10 +300,10 @@ After a set period of time, the player will be resurrected, if the revival isn't
 -----------------------
 ## Medic
 ### **Team: Crewmates**
-The Medic is a Crewmate that can give any player a shield that will make them immortal until the Medic dies.\
-A Shielded player cannot be Shifted into, Hacked or Killed by anyone, unless by suicide.\
-If the Medic reports a dead body, they can get a report containing clues to the Killer's identity.\
-A report can contain the name of the killer or the color type (Darker/Lighter)
+Il Medico è un Membro dell'Equipaggio che può dare a qualsiasi giocatore uno scudo che li renderà immortali fino a quando il Medico muore.\
+Un giocatore con lo scudo non può essere Trasformato, Hackerato o Ucciso da nessuno, a meno che non si suicidi.\
+Se il Medico segnala un corpo senza vita, può ottenere una segnalazione contenente indizi sull'identità dell'Assassino.\
+Una segnalazione può contenere il nome dell'assassino o il tipo di colore (più scuro/più chiaro).
 ### Colors
 - Red - Darker
 - Blue - Darker
@@ -351,8 +355,8 @@ A report can contain the name of the killer or the color type (Darker/Lighter)
 -----------------------
 ## Engineer
 ### **Team: Crewmates**
-The Engineer is a Crewmate that can fix sabotages from anywhere on the map.\
-They can use vents to get across the map easily.
+L'Ingegnere è un Membro dell'Equipaggio che può riparare i sabotaggi da qualsiasi punto della mappa.\
+Possono utilizzare i condotti di ventilazione per spostarsi facilmente sulla mappa.
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -363,10 +367,10 @@ They can use vents to get across the map easily.
 -----------------------
 ## Imitator
 ### **Team: Crewmates**
-The Imitator is a Crewmate that can mimic dead crewamtes.\
-During meetings the Imitator can select who they are going to imitate the following round from the dead.\
-They can choose to use each dead players as many times as they wish.\
-It should be noted the Imitator can not imitate all crew roles.
+L'Imitatore è un Membro dell'Equipaggio che può imitare i membri dell'equipaggio deceduti.\
+Durante le riunioni, l'Imitatore può selezionare chi imiterà nella successiva partita tra i giocatori deceduti.\
+Possono scegliere di utilizzare ogni giocatore deceduto quante volte desiderano.\
+È importante notare che l'Imitatore non può imitare tutti i ruoli dell'equipaggio.
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -376,10 +380,10 @@ It should be noted the Imitator can not imitate all crew roles.
 -----------------------
 ## Mayor
 ### **Team: Crewmates**
-The Mayor is a Crewmate that can vote multiple times.\
-The Mayor has a Vote Bank, which is the number of times they can vote.\
-They have the option to abstain their vote during a meeting, adding that vote to the Vote Bank.\
-As long as not everyone has voted, the Mayor can use as many votes from their Vote Bank as they please.
+Il Sindaco è un Membro dell'Equipaggio che può votare più volte.\
+Il Sindaco ha una Riserva di Voti, che rappresenta il numero di volte che può votare.\
+Hanno l'opzione di astenersi dal voto durante una riunione, aggiungendo quel voto alla Riserva di Voti.\
+Finché non tutti hanno votato, il Sindaco può utilizzare quanti voti desidera dalla sua Riserva di Voti.anzi 
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -391,10 +395,10 @@ As long as not everyone has voted, the Mayor can use as many votes from their Vo
 -----------------------
 ## Medium
 ### **Team: Crewmates**
-The Medium is a Crewmate that can see ghosts.\
-During each round the Medium has an ability called Mediate.\
-If the Medium uses this ability and no one is dead, nothing will happen.\
-However, if someone is dead, the Medium and the dead player will be able to see each other and communicate from beyond the grave!
+Il Medium è un Membro dell'Equipaggio che può vedere i fantasmi.\
+Durante ogni partita, il Medium ha la capacità chiamata Mediazione.\
+Se il Medium utilizza questa abilità e nessuno è morto, non accadrà nulla.\
+Tuttavia, se qualcuno è morto, il Medium e il giocatore deceduto saranno in grado di vedersi e comunicare da oltre la tomba!
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -408,8 +412,8 @@ However, if someone is dead, the Medium and the dead player will be able to see 
 -----------------------
 ## Swapper
 ### **Team: Crewmates**
-The Swapper is a Crewmate that can swap the votes on 2 players during a meeting.\
-All the votes for the first player will instead be counted towards the second player and vice versa.
+Lo Scambiatore è un Membro dell'Equipaggio che può scambiare i voti di 2 giocatori durante una riunione.\
+Tutti i voti per il primo giocatore saranno invece conteggiati per il secondo giocatore e viceversa.
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -420,8 +424,8 @@ All the votes for the first player will instead be counted towards the second pl
 -----------------------
 ## Transporter
 ### **Team: Crewmates**
-The Transporter is a Crewmate that can change the locations of two random players at will.\
-Players who have been transported are alerted with a blue flash on their screen.
+Il Trasportatore è un Membro dell'Equipaggio che può cambiare le posizioni di due giocatori casuali a suo piacimento.\
+I giocatori che sono stati trasportati vengono avvisati con un flash blu sullo schermo.
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -435,10 +439,10 @@ Players who have been transported are alerted with a blue flash on their screen.
 # Neutral Roles
 ## Amnesiac
 ### **Team: Neutral**
-The Amnesiac is a Neutral role with no win condition.\
-They have zero tasks and are essentially roleless.\
-However, they can remember a role by finding a dead player.\
-Once they remember their role, they go on to try win with their new win condition.
+L'Amnesico è un Ruolo Neutrale senza condizione di vittoria.\
+Non ha alcun compito ed è essenzialmente senza ruolo.\
+Tuttavia, può ricordare un ruolo trovando un giocatore morto.\
+Una volta che ricorda il suo ruolo, cerca di vincere con la sua nuova condizione di vittoria.
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -450,9 +454,9 @@ Once they remember their role, they go on to try win with their new win conditio
 -----------------------
 ## Guardian Angel
 ### **Team: Neutral**
-The Guardian Angel is a Neutral role which aligns with the faction of their target.\
-Their job is to protect their target at all costs.\
-If their target loses, they lose.
+Il Guardiano Angelico è un Ruolo Neutrale che si allinea con la fazione del suo bersaglio.\
+Il suo compito è proteggere il suo bersaglio a tutti i costi.\
+Se il suo bersaglio perde, anche lui perde.
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -470,8 +474,8 @@ If their target loses, they lose.
 -----------------------
 ## Survivor
 ### **Team: Neutral**
-The Survivor is a Neutral role which can win by simply surviving.\
-However, if Lovers, or a Neutral Evil role wins the game, the survivor loses.
+Il Sopravvissuto è un Ruolo Neutrale che può vincere semplicemente sopravvivendo.\
+Tuttavia, se gli Amanti o un Ruolo Neutrale Malvagio vincono il gioco, il sopravvissuto perde.
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -486,9 +490,9 @@ However, if Lovers, or a Neutral Evil role wins the game, the survivor loses.
 ## Executioner
 ### **Team: Neutral**
 
-The Executioner is a Neutral role with its own win condition.\
-Their goal is to vote out a player, specified in the beginning of a game.\
-If that player gets voted out, they win the game.
+L'Esecutore è un Ruolo Neutrale con una propria condizione di vittoria.\
+Il loro obiettivo è far votare fuori un giocatore, specificato all'inizio della partita.\
+Se quel giocatore viene votato fuori, loro vincono la partita.
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
@@ -499,9 +503,9 @@ If that player gets voted out, they win the game.
 -----------------------
 ## Jester
 ### **Team: Neutral**
-The Jester is a Neutral role with its own win condition.\
-If they are voted out after a meeting, the game finishes and they win.\
-However, the Jester does not win if the Crewmates, Impostors or another Neutral role wins.
+Il Giullare è un Ruolo Neutrale con una propria condizione di vittoria.\
+Se viene votato fuori durante una riunione, il gioco si conclude e loro vincono.\
+Tuttavia, il Giullare non vince se i Crewmates, gli Impostors o un altro Ruolo Neutrale vincono.
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -515,8 +519,8 @@ However, the Jester does not win if the Crewmates, Impostors or another Neutral 
 ## Phantom
 ### **Team: Neutral**
 
-The Phantom is a Neutral role with its own win condition.\
-They become half-invisible when they die and has to complete all their tasks without getting caught.
+Il Fantasma è un Ruolo Neutrale con una propria condizione di vittoria.\
+Diventano semitrasparenti quando muoiono e devono completare tutti i loro compiti senza essere scoperti.
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
@@ -527,10 +531,10 @@ They become half-invisible when they die and has to complete all their tasks wit
 ## Arsonist
 ### **Team: Neutral**
 
-The Arsonist is a Neutral role with its own win condition.\
-They have two abilities, one is to douse other players with gasoline.\
-The other is to ignite all doused players.\
-The Arsonist needs to be the last killer alive to win the game.
+L'Arsonista è un Ruolo Neutrale con una propria condizione di vittoria.\
+Hanno due abilità, una è di inzuppare gli altri giocatori di benzina.\
+L'altra è di accendere tutti i giocatori inzuppati.\
+L'Arsonista deve essere l'ultimo assassino rimasto per vincere la partita.
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
@@ -544,10 +548,10 @@ The Arsonist needs to be the last killer alive to win the game.
 ## Juggernaut
 ### **Team: Neutral**
 
-The Juggernaut is a Neutral role with its own win condition.\
-The Juggernaut's special ability is that their kill cooldown reduces with each kill.\
-This means in theory the Juggernaut can have a 0 second kill cooldown!\
-The Juggernaut is also a hidden role, meaning it will show up randomly and can not be toggled by percentages like other roles.\
+Il Juggernaut è un Ruolo Neutrale con una propria condizione di vittoria.\
+La sua abilità speciale è che il suo tempo di recupero per l'uccisione si riduce ad ogni uccisione.\
+Ciò significa che in teoria il Juggernaut può avere un tempo di recupero per l'uccisione di 0 secondi!\
+Il Juggernaut è anche un ruolo nascosto, il che significa che comparirà casualmente e non può essere controllato mediante percentuali come gli altri ruoli.
 The Juggernaut needs to be the last killer alive to win the game.
 ### Game Options
 | Name | Description | Type | Default |
@@ -560,12 +564,12 @@ The Juggernaut needs to be the last killer alive to win the game.
 ## Plaguebearer
 ### **Team: Neutral**
 
-The Plaguebearer is a Neutral role with its own win condition, as well as an ability to transform into another role.\
-The Plaguebearer has one ability, which allows them to infect other players.\
-Once infected, the infected player can go and infect other players via interacting with them.\
-Once all players are infected, the Plaguebearer becomes Pestilence.\
-The Pestilence is a unkillable force which can only be killed by being voted out, even their lover dying won't kill them.\
-The Plaguebearer or Pestilence needs to be the last killer alive to win the game.
+Il Plaguebearer è un Ruolo Neutrale con una propria condizione di vittoria, nonché la capacità di trasformarsi in un altro ruolo.\
+Il Plaguebearer ha una sola abilità, che gli consente di infettare altri giocatori.\
+Una volta infettato, il giocatore infetto può a sua volta infettare altri giocatori interagendo con loro.\
+Una volta che tutti i giocatori sono infettati, il Plaguebearer diventa Pestilence.\
+La Pestilence è una forza invincibile che può essere eliminata solo tramite voto, persino la morte del suo amante non la uccide.\
+Il Plaguebearer o Pestilence deve essere l'ultimo assassino rimasto per vincere il gioco.
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
@@ -578,12 +582,11 @@ The Plaguebearer or Pestilence needs to be the last killer alive to win the game
 ## The Glitch
 ### **Team: Neutral**
 
-The Glitch is a Neutral role with its own win condition.\
-The Glitch's aim is to kill everyone and be the last person standing.\
-The Glitch can Hack players, resulting in them being unable to report bodies and do tasks.\
-Hacking prevents the hacked player from doing anything but walk around the map.\
-The Glitch can Mimic someone, which results in them looking exactly like the other person.
-
+Il Glitch è un Ruolo Neutrale con una propria condizione di vittoria.\
+L'obiettivo del Glitch è uccidere tutti gli altri giocatori e rimanere l'ultimo in piedi.\
+Il Glitch può Hackerare i giocatori, impedendo loro di segnalare i cadaveri e completare le missioni.\
+L'Hacking impedisce al giocatore hackerato di fare qualsiasi cosa tranne che muoversi sulla mappa.\
+Il Glitch può anche Imitare qualcuno, apparendo esattamente come l'altra persona.
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
@@ -600,11 +603,11 @@ The Glitch can Mimic someone, which results in them looking exactly like the oth
 ## Werewolf
 ### **Team: Neutral**
 
-The Werewolf is a Neutral role with its own win condition.\
-Although the Werwolf has a kill button, they can't use it unless they are Rampaged.\
-Once the Werewolf rampages they gain Impostor vision and the ability to kill.\
-However, unlike most killers their kill cooldown is really short.\
-The Werewolf needs to be the last killer alive to win the game.
+Il Licantropo è un Ruolo Neutrale con una propria condizione di vittoria.
+Anche se il Licantropo ha un pulsante di uccisione, non può usarlo a meno che non sia in modalità "Rampage".
+Una volta che il Licantropo è in modalità Rampage, ottiene la visione degli Impostori e la capacità di uccidere.
+Tuttavia, a differenza della maggior parte degli assassini, il Licantropo ha un tempo di recupero molto breve per l'uccisione.
+Il Licantropo deve essere l'ultimo assassino rimasto per vincere la partita.
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
@@ -619,8 +622,8 @@ The Werewolf needs to be the last killer alive to win the game.
 ## Escapist
 ### **Team: Impostors**
 
-The Escapist is an Impostor that can teleport to a different location.\
-Once per round the Escapist can Mark a location which they can then escape to later in the round.
+The Escapist è un Impostor che può teletrasportarsi in una posizione diversa.\
+Una volta per round, l'Escapist può marcare una posizione a cui può poi fuggire più avanti nel round.
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -632,10 +635,9 @@ Once per round the Escapist can Mark a location which they can then escape to la
 -----------------------
 ## Grenadier
 ### **Team: Impostors**
-
-The Grenadier is an Impostor that can throw smoke grenades.\
-During the game, the Grenadier has the option to throw down a smoke grenade which blinds crewmates so they can't see.\
-However, a sabotage and a smoke grenade can not be active at the same time.
+Il Grenadier è un Impostor che può lanciare granate fumogene.\
+Durante il gioco, il Grenadier ha l'opzione di lanciare una granata fumogena che acceca i crewmate, impedendo loro di vedere.\
+Tuttavia, un sabotaggio e una granata fumogena non possono essere attivi contemporaneamente.
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -650,9 +652,9 @@ However, a sabotage and a smoke grenade can not be active at the same time.
 ## Morphling
 ### **Team: Impostors**
 
-The Morphling is an Impostor that can Morph into another player.\
-At the beginning of the game and after every meeting, they can choose someone to Sample.\
-They can then Morph into that person at any time for a limited amount of time.
+Il Morphling è un Impostor che può trasformarsi in un altro giocatore.\
+All'inizio del gioco e dopo ogni riunione, possono scegliere qualcuno da campionare.\
+Possono quindi trasformarsi in quella persona in qualsiasi momento per un periodo di tempo limitato.
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -666,7 +668,7 @@ They can then Morph into that person at any time for a limited amount of time.
 ## Swooper
 ### **Team: Impostors**
 
-The Swooper is an Impostor that can temporarily turn invisible.
+Il Swooper è un Impostor che può diventare temporaneamente invisibile.
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -680,9 +682,9 @@ The Swooper is an Impostor that can temporarily turn invisible.
 ## Bomber
 ### **Team: Impostors**
 
-The Bomber is an Impostor who has the ability to plant bombs instead of kill.\
-After a bomb is planted, the bomb will detonate a fixed time period as per settings.\
-Once the bomb detonates it will kill all crewmates (and Impostors!) inside the radius.
+Il Bomber è un Impostor che ha la capacità di piazzare bombe invece di uccidere.\
+Dopo che una bomba è stata piazzata, esploderà dopo un determinato periodo di tempo, come impostato.\
+Una volta che la bomba esplode, ucciderà tutti i membri dell'equipaggio (e gli Impostor!) all'interno del raggio d'azione.
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -697,9 +699,9 @@ Once the bomb detonates it will kill all crewmates (and Impostors!) inside the r
 ## Traitor
 ### **Team: Impostors**
 
-If all Impostors die before a certain point in the game, a random crewmate is selected to become the Traitor.\
-The Traitor has no additional abilities and their job is simply to avenge the dead Impostors.\
-Once this player has turned into the Traitor their alliance sits with the Impostors.
+Se tutti gli Impostor muoiono prima di un certo punto nel gioco, un membro casuale dell'equipaggio viene selezionato per diventare il Traditore.\
+Il Traditore non ha abilità aggiuntive e il suo compito è semplicemente vendicare gli Impostor morti.\
+Una volta che questo giocatore diventa il Traditore, la sua alleanza si unisce agli Impostor.
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -711,9 +713,9 @@ Once this player has turned into the Traitor their alliance sits with the Impost
 -----------------------
 ## Blackmailer
 ### **Team: Impostors**
-The Blackmailer is an Impostor that can silence people in meetings.\
-During each round, the Blackmailer can go up to someone and blackmail them.\
-This prevents the blackmailed person from speaking during the next meeting.
+Il Ricattatore è un Impostor che può silenziare le persone durante le riunioni.\
+Durante ogni round, il Ricattatore può avvicinarsi a qualcuno e ricattarlo.\
+Questo impedisce alla persona ricattata di parlare durante la riunione successiva.
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -724,8 +726,8 @@ This prevents the blackmailed person from speaking during the next meeting.
 -----------------------
 ## Janitor
 ### **Team: Impostors**
-The Janitor is an Impostor that can clean up bodies.\
-Both their Kill and Clean ability have a shared cooldown, meaning they have to choose which one they want to use.
+Il Custode è un Impostor che può pulire i corpi.\
+Sia la loro abilità di Uccidere che quella di Pulire hanno un cooldown condiviso, il che significa che devono scegliere quale delle due utilizzare.
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -736,8 +738,8 @@ Both their Kill and Clean ability have a shared cooldown, meaning they have to c
 ## Miner
 ### **Team: Impostors**
 
-The Miner is an Impostor that can create new vents.\
-These vents only connect to each other, forming a new passway.
+Il Minatore è un Impostor che può creare nuovi passaggi.\
+Questi passaggi si collegano solo tra loro, formando una nuova rete di condotti.
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -748,8 +750,7 @@ These vents only connect to each other, forming a new passway.
 -----------------------
 ## Undertaker
 ### **Team: Impostors**
-
-The Undertaker is an Impostor that can drag and drop bodies.
+L'Impostor Undertaker può trascinare e spostare i corpi.
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -762,314 +763,7 @@ The Undertaker is an Impostor that can drag and drop bodies.
 
 -----------------------
 
-# Modifiers
-Modifiers are added on top of players' roles.
-## Bait
-### **Applied to: Crewmates**
-Killing the Bait makes the killer auto self-report.
-### Game Options
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Bait | The percentage probability of the Bait appearing | Percentage | 0% |
-| Bait Minimum Delay | The minimum time the killer of the Bait reports the body | Time | 0s |
-| Bait Maximum Delay | The maximum time the killer of the Bait reports the body | Time | 1s |
-
------------------------
-## Blind
-### **Applied to: Crewmates**
-The Blind's report button does not light up.
-### Game Options
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Blind | The percentage probability of the Blind appearing | Percentage | 0% |
-
------------------------
-## Diseased
-### **Applied to: Crewmates**
-Killing the Diseased triples the killer's Kill cooldown.
-### Game Options
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Diseased | The percentage probability of the Diseased appearing | Percentage | 0% |
-| Kill Multiplier | How much the Kill Cooldown of the Impostor is increased by | Multiplier | 3x |
-
------------------------
-## Multitasker
-### **Applied to: Crewmates**
-The Multitasker's tasks are transparent.
-### Game Options
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Multitasker | The percentage probability of the Multitasker appearing | Percentage | 0% |
-
------------------------
-## Torch
-### **Applied to: Crewmates**
-The Torch's vision doesn't get reduced when the lights are sabotaged.
-### Game Options
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Torch | The percentage probability of the Torch appearing | Percentage | 0% |
-
------------------------
-## Button Barry
-### **Applied to: All**
-Button Barry has the ability to call a meeting from anywhere on the map, even during sabotages.
-They have the same amount of meetings as a regular player.
-### Game Options
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Button Barry | The percentage probability of Button Barry appearing | Percentage | 0% |
-
------------------------
-## Flash
-### **Applied to: All**
-The Flash travels at twice the speed of a normal player.
-### Game Options
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Flash | The percentage probability of the Flash appearing | Percentage | 0% |
-| Speed | How fast the Flash moves in comparison to normal | Multiplier | 1.25x |
-
------------------------
-## Giant
-### **Applied to: All**
-The Giant is a gigantic Crewmate, that has a decreased walk speed.
-### Game Options
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Giant | The percentage probability of the Giant appearing | Percentage | 0% |
-| Speed | How fast the Giant moves in comparison to normal | Multiplier | 0.75x |
-
------------------------
-## Lovers
-### **Applied to: All**
-The Lovers are two players who are linked together.\
-These two players get picked randomly between Crewmates and Impostors.\
-They gain the primary objective to stay alive together.\
-If they are both among the last 3 players, they win.\
-In order to do so, they gain access to a private chat, only visible by them in between meetings.\
-However, they can also win with their respective team, hence why the Lovers do not know the role of the other lover.
-
-### Game Options
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Lovers | The percentage probability of the Lovers appearing | Percentage | 0% |
-| Both Lovers Die | Whether the other Lover automatically dies if the other does | Toggle | True |
-| Loving Impostor Probability | The chances of one lover being an Impostor | Percentage | 20% |
-| Neutral Roles Can Be Lovers | Whether a Lover can be a Neutral Role | Toggle | True |
-
------------------------
-## Radar
-### **Applied to: All**
-The Radar is a crewmate who knows where the closest player is to them.
-### Game Options
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Radar | The percentage probability of the Radar appearing | Percentage | 0% |
-
------------------------
-## Sleuth
-### **Applied to: All**
-The Sleuth is a crewmate who gains knowledge from reporting dead bodies.\
-During meetings the Sleuth can see the roles of all players in which they've reported.
-### Game Options
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Sleuth | The percentage probability of the Sleuth appearing | Percentage | 0% |
-
------------------------
-## Tiebreaker
-### **Applied to: All**
-If any vote is a draw, the Tiebreaker's vote will go through.\
-If they voted another player, they will get voted out.\
-If the Tiebreaker is the Mayor, it applies to the Mayor's __first__ vote.
-### Game Options
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Tiebreaker | The percentage probability of the Tiebreaker appearing | Percentage | 0% |
-
------------------------
-## Disperser
-### **Applied to: Impostors**
-The Disperser is an Impostor who has a 1 time use ability to send all players to a random vent.\
-This includes miner vents.\
-Does not appear on Airship or Submerged.
-### Game Options
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Disperser | The percentage probability of the Disperser appearing | Percentage | 0% |
-
------------------------
-## Double Shot
-### **Applied to: Impostors**
-Double Shot is an Impostor who gets an extra life when assassinating.\
-Once they use their life they are indicated with a red flash\
-and can no longer guess the person who they guessed wrong for the remainder of that meeting.
-### Game Options
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Double Shot| The percentage probability of Double Shot appearing | Percentage | 0% |
-
------------------------
-## Underdog
-### **Applied to: Impostors**
-
-The Underdog is an Impostor with a prolonged kill cooldown.\
-When they are the only remaining Impostor, they will have their kill cooldown shortened.
-
-### Game Options
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Underdog | The percentage probability of the Underdog appearing | Percentage | 0% |
-| Kill Cooldown Bonus | The amount of time added or removed from the Underdog's Kill Cooldown | Time | 5s |
-| Increased Kill Cooldown  | Whether the Underdog's Kill Cooldown is Increased when 2+ Imps are alive | Toggle | True |
-
------------------------
-# Game Mode Settings
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Game Mode | What game mode the next game will be | Classic / All Any / Killing Only / Cultist | Classic |
-
------------------------
-# Classic Game Mode Settings
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Min Neutral Non-Killing Roles | The minimum number of Neutral non-killing roles a game can have | Number | 1 |
-| Max Neutral Non-Killing Roles | The maximum number of Neutral non-killing roles a game can have | Number | 1 |
-| Min Neutral Killing Roles | The minimum number of Neutral killing roles a game can have | Number | 1 |
-| Max Neutral Killing Roles | The maximum number of Neutral killing roles a game can have | Number | 1 |
-
------------------------
-# All Any Settings
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Random Number of Impostors | Whether there are a random number of Impostors | Toggle | True |
-
------------------------
-# Killing Only Settings
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Neutral Roles | How many neutrals roles will spawn | Number | 1 |
-| Veteran Count | How many Veterans will spawn | Number | 1 |
-| Vigilante Count | How many Vigilantes will spawn | Number | 1 |
-| Add Arsonist | Whether Arsonist will be added to the role list | Toggle | True |
-| Add Plaguebearer | Whether Plaguebearer will be added to the role list | Toggle | True |
-
------------------------
-# Cultist Settings
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Mayor | The percentage probability of the Mayor appearing | Percentage | 0% |
-| Seer | The percentage probability of the Seer appearing | Percentage | 0% |
-| Sheriff | The percentage probability of the Sheriff appearing | Percentage | 0% |
-| Survivor | The percentage probability of the Survivor appearing | Percentage | 0% |
-| Number Of Special Roles | How many special roles will spawn | Number | 4 |
-| Max Chameleons | The maximum number of Chameleons that can spawn | Number | 3 |
-| Max Engineers | The maximum number of Engineers that can spawn | Number | 3 |
-| Max Investigators | The maximum number of Investigators that can spawn | Number | 3 |
-| Max Mystics | The maximum number of Mystics that can spawn | Number | 3 |
-| Max Spies | The maximum number of Spies that can spawn | Number | 3 |
-| Max Transporters | The maximum number of Transporters that can spawn | Number | 3 |
-| Max Vigilantes | The maximum number of Vigilantes that can spawn | Number | 3 |
-| Initial Whisper Cooldown | The initial cooldown of the Whisperer's Whisper button | Time | 25s |
-| Increased Cooldown Per Whisper | The amount of time the Whisperer's whisper cooldown increases by per Whisper | Time | 5s |
-| Whisper Radius | How wide the whisper radius is | Multiplier | 0.25x |
-| Conversion Percentage | The percentage someone is leant towards being converted (addition not chance) | Percentage | 25% |
-| Decreased Conversion Percentage Per Conversion | The percentage decrease of the conversion percentage with each conversion | Percentage | 5% |
-| Initial Revive Cooldown | The initial cooldown of the Necromancer's Revive button | Time | 25s |
-| Increased Cooldown Per Revive | The amount of time the Necromancer's revive cooldown increases by per Revive | Time | 25s |
-| Maximum Number Of Reveals | The maximum number of times the Seer can reveal someone | Number | 5 |
-
------------------------
-# Map Settings
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Choose Random Map | Whether the Map is randomly picked at the start of the game | Toggle | False |
-| Skeld Chance | The percentage probability of the Skeld map being chosen | Percentage | 0% |
-| Mira HQ Chance | The percentage probability of the Mira HQ map being chosen | Percentage | 0% |
-| Polus Chance | The percentage probability of the Polus map being chosen | Percentage | 0% |
-| Airship Chance | The percentage probability of the Airship map being chosen | Percentage | 0% |
-| Submerged Chance | The percentage probability of the Submerged map being chosen | Percentage | 0% |
-| Auto Adjust Settings | Whether the Settings of the game are auto adjusted depending on the map | Toggle | False |
-| Half Vision on Skeld/Mira HQ | Whether the Vision is automatically halved on Skeld/Mira HQ | Toggle | False |
-| Mira HQ Decreased Cooldowns | How much less time the cooldowns are set to for Mira HQ | Time | 0s |
-| Airship/Submerged Increased Cooldowns | How much more time the cooldowns are set to for Airship/Submerged | Time | 0s |
-| Skeld/Mira HQ Increased Short Tasks | How many extra short tasks when the map is Skeld/Mira HQ | Number | 0 |
-| Skeld/Mira HQ Increased Longt Tasks | How many extra long tasks when the map is Skeld/Mira HQ | Number | 0 |
-| Airship/Submerged Decreased Short Tasks | How many less short tasks when the map is Airship/Submerged | Number | 0 |
-| Airship/Submerged Decreased Longt Tasks | How many less long tasks when the map is Airship/Submerged | Number | 0 |
-
------------------------
-# Better Polus Settings
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Better Polus Vent Layout | Optimises Vent Layout on Polus | Toggle | False |
-| Vitals Moved to Lab | Whether the Vitals panel is moved into the Laboratory | Toggle | False |
-| Cole Temp Moved to Death Valley | Whether the cold temperaure task is moved to death valley | Toggle | False |
-| Reboot Wifi and Chart Course Swapped | Whether the Reboot Wifi and Chart Course swap locations | Toggle | False |
-
------------------------
-# Custom Game Options
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Camouflaged Comms | Whether everyone becomes camouflaged when Comms are sabotaged | Toggle | False |
-| Impostors can see the roles of their team | Whether Impostors are able to see which Impostor roles their teammates have | Toggle | False |
-| Dead can see everyone's roles and Votes | Whether dead players are able to see the roles and votes of everyone else | Toggle | False |
-| Game Start Cooldowns | The cooldown for all roles at the start of the game | Time | 10s |
-| Parallel Medbay Scans | Whether players have to wait for others to scan | Toggle | False |
-| Disable Meeting Skip Button | Whether the meeting button is disabled | No / Emergency / Always | No |
-| Disable Level Icons | Whether all level icons are removed in meetings | Toggle | False |
-| Disable Player Nameplates | Whether all decorative nameplates are disabled in meetings | Toggle | False |
-| Enable Hidden Roles | Whether hidden roles are added to the role selections | Toggle | True |
-
------------------------
-# Task Tracking Settings
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| See Tasks During Round | Whether people see their tasks update in game | Toggle | False |
-| See Tasks During Meetings | Whether people see their task count during meetings | Toggle | False |
-| See Tasks When Dead | Whether people see everyone's tasks when they're dead | Toggle | False |
-
------------------------
-## Assassin Ability
-### **Team: Impostors**
-
-The Assassin Ability is given to a certain number of Impostors or Neutral Killers.\
-This ability gives the Impostor or Neutral Killer a chance to kill during meetings by guessing the roles or modifiers of others.\
-If they guess wrong, they die instead.
-
-### Game Options
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Number of Impostor Assassins | How many Impostors can Assassinate | Number | 1 |
-| Number of Neutral Killing Assassins | How many Neutral Killers can Assassinate | Number | 1 |
-| Amnesiac Turned Impostor Can Assassinate | Whether former Amnesiacs now Impostor can Assassinate | Toggle | False |
-| Amnesiac Turned Neutral Killing Can Assassinate | Whether former Amnesiacs now Neutral Killers can Assassinate | Toggle | False |
-| Traitor Can Assassinate | If someone turns into a Traitor they can Assassinate | Toggle | False |
-| Assassin Kill | The number of kill the Assassin can do with his ability | Number | 1 |
-| Assassin Guess Crewmate | Whether the Assassin can Guess "Crewmate" | Toggle | False |
-| Assassin Multiple Kill  | Whether the Assassin can kill more than once per meeting | Toggle | False |
-| Assassin Guess Neutral Benign  | Whether the Assassin can Guess Neutral Benign roles | Toggle | False |
-| Assassin Guess Neutral Evil  | Whether the Assassin can Guess Neutral Evil roles | Toggle | False |
-| Assassin Guess Neutral Killing  | Whether the Assassin can Guess Neutral Killing roles | Toggle | False |
-| Assassin Guess Impostors  | Whether the Assassin can Guess Impostor roles | Toggle | False |
-| Assassin Guess Crewmate Modifiers  | Whether the Assassin can Guess Crewmate Modifiers | Toggle | False |
-| Assassin Can Guess Lovers  | Whether the Assassin can Guess Lovers | Toggle | False |
-| Assassin Can Guess After Voting  | Whether the Assassin can Guess after voting | Toggle | False |
-
------------------------
-# Extras
-## New Colors!
-New colors are added for crewmates to pick from.
-## Rainbow Color!
-A rainbow color has also been added. Anyone who equips this color will constantly switch between the colors of the rainbow.
-## Custom Hats!
-Custom hats have been added, made by some very talented artists. These are mostly hats for streamers.
-
------------------------
-# Bug / Suggestions
-If you have any bugs or any need to contact me, join the [Discord Server](https://discord.gg/ugyc4EVUYZ) or create a ticket on GitHub.
+questo è solo una traduzione in italiano!!!!! il vero creatore del file è quello indicato qui giù, io ho solo tradotto in italiano i ruoli che ha scritto in inglese. non voglio nessuna responsabilità ed questa è una semplice traduzione non ufficiale ma personale privata della mod town of us
 
 -----------------------
 # Credits & Resources
