@@ -54,22 +54,6 @@ il discord ufficiale della mod è [Discord](https://discord.gg/ugyc4EVUYZ)
 - [Miner](#miner)
 - [Undertaker](#undertaker)
 
-**Modifiers**
-- [Bait](#bait)
-- [Blind](#blind)
-- [Diseased](#diseased)
-- [Multitasker](#multitasker)
-- [Torch](#torch)
-- [Button Barry](#button-barry)
-- [Flash](#flash)
-- [Giant](#giant)
-- [Radar](#radar)
-- [Lovers](#lovers)
-- [Sleuth](#sleuth)
-- [Tiebreaker](#tiebreaker)
-- [Disperser](#disperser)
-- [Double Shot](#double-shot)
-- [Underdog](#underdog)
 
 -----------------------
 # Roles
