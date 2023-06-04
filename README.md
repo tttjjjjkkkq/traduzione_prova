@@ -3,9 +3,9 @@
 ![LOGO](./TOU-logo.png)
 ![Roles](./Roles.png)
 
-An Among Us mod that adds a bunch of roles, modifiers and game settings
+per chi non capisce l'inglese e capisce l'italiano o per chi preferisce l'italiano ecc... questa è la traduzione dei ruoli in italiano della mod town of us, ricordate non è ufficiale ma una traduzione personale
 
-Join our [Discord](https://discord.gg/ugyc4EVUYZ) if you have any problems or want to find people to play with!
+il discord ufficiale della mod è [Discord](https://discord.gg/ugyc4EVUYZ)
 
 **Crewmate Roles**
 - [Detective](#detective)
@@ -76,30 +76,31 @@ Join our [Discord](https://discord.gg/ugyc4EVUYZ) if you have any problems or wa
 # Crewmate Roles
 ## Detective
 ### **Team: Crewmates**
-The Detective is a Crewmate that can examine other players for suspicious behaviour.\
-If the player the Detective examines has killed recently the Detective will be alerted about it.
+Il Detective è un Membro dell'Equipaggio che può esaminare altri giocatori per comportamenti sospetti.\
+Se il giocatore esaminato dal Detective ha ucciso di recente, il Detective verrà avvisato..
 ### Role Info
-- Your target has an unusual obsession with dead bodies (Altruist/Amnesiac/Janitor/Medium/Undertaker)
-- Your target tries to protect themselves or others by any means necessary (Grenadier/Guardian Angel/Medic/Survivor/Veteran)
-- Your target is a causer of chaos (Bomber/Executioner/Jester/Swapper/Transporter)
-- Your target is concealing information (Blackmailer/Mayor/Snitch/Swooper/Trapper)
-- Your target started innocent but gained the capability to kill (Juggernaut/Sheriff/Traitor/Vigilante/Werewolf)
-- Your target likes to interact with others (Arsonist/Detective/Plaguebearer/Seer/Tracker)
-- Your target likes exploring (Engineer/Escapist/Investigator/Miner/Mystic)
-- Your target views the world through a different lens (Glitch/Imitator/Morphling/Spy)
-- Your target appears to be roleless (Crewmate/Impostor)
+-Il tuo obiettivo ha un'insolita ossessione per i cadaveri (Altruista/Amnesico/Janitor/Medium/Impresario di pompe funebri)
+-Il tuo obiettivo cerca di proteggere se stesso o gli altri con ogni mezzo necessario (Grenadier/Angelo Custode/Medico/Sopravvissuto/Veterano)
+-Il tuo obiettivo è un creatore di caos (Bomber/Esecutore/Jester/Scambiatore/Trasportatore)
+-Il tuo obiettivo sta nascondendo informazioni (Maestro del Ricatto/Sindaco/Spione/Spalleggiatore/Trapper)
+-Il tuo obiettivo è inizialmente innocente ma ha acquisito la capacità di uccidere (Juggernaut/Sceriffo/Traitor/Vigilante/Uomo Lupo)
+-Il tuo obiettivo ama interagire con gli altri (Piromane/Detective/Portatore della Peste/Veggente/Tracker)
+-Il tuo obiettivo ama esplorare (Ingegnere/Fuggiasco/Investigatore/Minatore/Mistico)
+-Il tuo obiettivo vede il mondo attraverso una lente diversa (Glitch/Imitatore/Morphling/Spia)
+-Il tuo obiettivo sembra non avere un ruolo specifico (Membro dell'Equipaggio/Impostore)
 
-### Game Options
-| Name | Description | Type | Default |
+### Opzioni di Gioco
+| Nome | Descrizione | Tipo | Predefinito |
 |----------|:-------------:|:------:|:------:|
-| Detective | The percentage probability of the Detective appearing | Percentage | 0% |
-| Initial Examine Cooldown | The initial cooldown of the Detective's Examine button | Time | 25s |
-| Examine Cooldown | The cooldown of the Detective's Examine button | Time | 10s |
-| Bloody Duration | How long players remain bloody after a kill | Time | 25s |
-| Show Detective Reports | Whether the Detective should get information when reporting a body | Toggle | True |
-| Time Where Detective Reports Will Have Role | If a body has been dead for shorter than this amount, the Detective's report will contain the killer's role | Time | 15s |
-| Time Where Detective Reports Will Have Faction | If a body has been dead for shorter than this amount, the Detective's report will contain the killer's faction | Time | 30s |
-| Show Examine Reports | Whether the Detective should get information about their last exmaine target | Toggle | True |
+| Investigatore | La percentuale di probabilità che l'Investigatore appaia | Percentuale | 0% |
+| Tempo di Attesa Iniziale Esame | Il tempo di attesa iniziale del pulsante di Esame dell'Investigatore | Tempo | 25s |
+| Tempo di Attesa Esame | Il tempo di attesa del pulsante di Esame dell'Investigatore | Tempo | 10s |
+| Durata Macchiatura | Quanto a lungo i giocatori rimangono macchiati dopo un omicidio | Tempo | 25s |
+| Mostra Rapporti Investigatore | Se l'Investigatore dovrebbe ottenere informazioni quando segnala un corpo | Interruttore | Attivo |
+| Tempo in cui i Rapporti Investigatore Avranno il Ruolo | Se un corpo è stato morto per un periodo inferiore a questo, il rapporto dell'Investigatore conterrà il ruolo dell'assassino | Tempo | 15s |
+| Tempo in cui i Rapporti Investigatore Avranno la Fazione | Se un corpo è stato morto per un periodo inferiore a questo, il rapporto dell'Investigatore conterrà la fazione dell'assassino | Tempo | 30s |
+| Mostra Rapporti Esame | Se l'Investigatore dovrebbe ottenere informazioni sul loro ultimo bersaglio esaminato | Interruttore | Attivo |
+
 
 -----------------------
 ## Haunter
